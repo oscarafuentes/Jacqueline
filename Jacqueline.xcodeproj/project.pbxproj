@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C0EA1771EECCA6700B78B2F /* Jacqueline-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA16D1EECCA6700B78B2F /* Jacqueline-iOS.framework */; };
-		0C0EA17C1EECCA6700B78B2F /* Jacqueline_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA17B1EECCA6700B78B2F /* Jacqueline_iOSTests.swift */; };
-		0C0EA17E1EECCA6700B78B2F /* Jacqueline-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1701EECCA6700B78B2F /* Jacqueline-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C0EA18E1EECCA7F00B78B2F /* Jacqueline-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA18C1EECCA7F00B78B2F /* Jacqueline-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C0EA1A01EECCA8F00B78B2F /* Jacqueline-tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA1971EECCA8F00B78B2F /* Jacqueline-tvOS.framework */; };
-		0C0EA1A51EECCA8F00B78B2F /* Jacqueline_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1A41EECCA8F00B78B2F /* Jacqueline_tvOSTests.swift */; };
-		0C0EA1A71EECCA8F00B78B2F /* Jacqueline-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1991EECCA8F00B78B2F /* Jacqueline-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C0EA1BC1EECCA9D00B78B2F /* Jacqueline-macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA1B31EECCA9D00B78B2F /* Jacqueline-macOS.framework */; };
-		0C0EA1C11EECCA9D00B78B2F /* Jacqueline_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1C01EECCA9D00B78B2F /* Jacqueline_macOSTests.swift */; };
-		0C0EA1C31EECCA9D00B78B2F /* Jacqueline-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1B51EECCA9D00B78B2F /* Jacqueline-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA1771EECCA6700B78B2F /* Jacqueline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA16D1EECCA6700B78B2F /* Jacqueline.framework */; };
+		0C0EA1A01EECCA8F00B78B2F /* Jacqueline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA1971EECCA8F00B78B2F /* Jacqueline.framework */; };
+		0C0EA1BC1EECCA9D00B78B2F /* Jacqueline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0EA1B31EECCA9D00B78B2F /* Jacqueline.framework */; };
+		0C0EA1E51EECCCE300B78B2F /* Jacqueline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA1E61EECCD0600B78B2F /* Jacqueline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA1E71EECCD0800B78B2F /* Jacqueline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA1E81EECCD0900B78B2F /* Jacqueline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA1E91EECCD1600B78B2F /* Jacqueline_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1CD1EECCCE300B78B2F /* Jacqueline_iOSTests.swift */; };
+		0C0EA1EA1EECCD1D00B78B2F /* Jacqueline_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1D01EECCCE300B78B2F /* Jacqueline_macOSTests.swift */; };
+		0C0EA1EB1EECCD2200B78B2F /* Jacqueline_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1D31EECCCE300B78B2F /* Jacqueline_tvOSTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,27 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C0EA16D1EECCA6700B78B2F /* Jacqueline-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Jacqueline-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA1701EECCA6700B78B2F /* Jacqueline-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jacqueline-iOS.h"; sourceTree = "<group>"; };
-		0C0EA1711EECCA6700B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA16D1EECCA6700B78B2F /* Jacqueline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jacqueline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0EA1761EECCA6700B78B2F /* Jacqueline-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jacqueline-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA17B1EECCA6700B78B2F /* Jacqueline_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jacqueline_iOSTests.swift; sourceTree = "<group>"; };
-		0C0EA17D1EECCA6700B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0EA18A1EECCA7F00B78B2F /* Jacqueline-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Jacqueline-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA18C1EECCA7F00B78B2F /* Jacqueline-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jacqueline-watchOS.h"; sourceTree = "<group>"; };
-		0C0EA18D1EECCA7F00B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0EA1971EECCA8F00B78B2F /* Jacqueline-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Jacqueline-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA1991EECCA8F00B78B2F /* Jacqueline-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jacqueline-tvOS.h"; sourceTree = "<group>"; };
-		0C0EA19A1EECCA8F00B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA18A1EECCA7F00B78B2F /* Jacqueline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jacqueline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0EA1971EECCA8F00B78B2F /* Jacqueline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jacqueline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0EA19F1EECCA8F00B78B2F /* Jacqueline-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jacqueline-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA1A41EECCA8F00B78B2F /* Jacqueline_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jacqueline_tvOSTests.swift; sourceTree = "<group>"; };
-		0C0EA1A61EECCA8F00B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0EA1B31EECCA9D00B78B2F /* Jacqueline-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Jacqueline-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA1B51EECCA9D00B78B2F /* Jacqueline-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jacqueline-macOS.h"; sourceTree = "<group>"; };
-		0C0EA1B61EECCA9D00B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA1B31EECCA9D00B78B2F /* Jacqueline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jacqueline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0EA1BB1EECCA9D00B78B2F /* Jacqueline-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jacqueline-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0EA1C01EECCA9D00B78B2F /* Jacqueline_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jacqueline_macOSTests.swift; sourceTree = "<group>"; };
-		0C0EA1C21EECCA9D00B78B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA1CC1EECCCE300B78B2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA1CD1EECCCE300B78B2F /* Jacqueline_iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jacqueline_iOSTests.swift; sourceTree = "<group>"; };
+		0C0EA1CF1EECCCE300B78B2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA1D01EECCCE300B78B2F /* Jacqueline_macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jacqueline_macOSTests.swift; sourceTree = "<group>"; };
+		0C0EA1D21EECCCE300B78B2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0EA1D31EECCCE300B78B2F /* Jacqueline_tvOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jacqueline_tvOSTests.swift; sourceTree = "<group>"; };
+		0C0EA1D51EECCCE300B78B2F /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		0C0EA1D61EECCCE300B78B2F /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		0C0EA1D71EECCCE300B78B2F /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		0C0EA1D81EECCCE300B78B2F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jacqueline.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1771EECCA6700B78B2F /* Jacqueline-iOS.framework in Frameworks */,
+				0C0EA1771EECCA6700B78B2F /* Jacqueline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1A01EECCA8F00B78B2F /* Jacqueline-tvOS.framework in Frameworks */,
+				0C0EA1A01EECCA8F00B78B2F /* Jacqueline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1BC1EECCA9D00B78B2F /* Jacqueline-macOS.framework in Frameworks */,
+				0C0EA1BC1EECCA9D00B78B2F /* Jacqueline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,13 +123,9 @@
 		0C0EA1611EECC9FC00B78B2F = {
 			isa = PBXGroup;
 			children = (
-				0C0EA16F1EECCA6700B78B2F /* Jacqueline-iOS */,
-				0C0EA17A1EECCA6700B78B2F /* Jacqueline-iOSTests */,
-				0C0EA18B1EECCA7F00B78B2F /* Jacqueline-watchOS */,
-				0C0EA1981EECCA8F00B78B2F /* Jacqueline-tvOS */,
-				0C0EA1A31EECCA8F00B78B2F /* Jacqueline-tvOSTests */,
-				0C0EA1B41EECCA9D00B78B2F /* Jacqueline-macOS */,
-				0C0EA1BF1EECCA9D00B78B2F /* Jacqueline-macOSTests */,
+				0C0EA1CA1EECCCE300B78B2F /* Tests */,
+				0C0EA1D41EECCCE300B78B2F /* Meta */,
+				0C0EA1DA1EECCCE300B78B2F /* Shared */,
 				0C0EA16E1EECCA6700B78B2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,78 +133,71 @@
 		0C0EA16E1EECCA6700B78B2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA16D1EECCA6700B78B2F /* Jacqueline-iOS.framework */,
+				0C0EA16D1EECCA6700B78B2F /* Jacqueline.framework */,
 				0C0EA1761EECCA6700B78B2F /* Jacqueline-iOSTests.xctest */,
-				0C0EA18A1EECCA7F00B78B2F /* Jacqueline-watchOS.framework */,
-				0C0EA1971EECCA8F00B78B2F /* Jacqueline-tvOS.framework */,
+				0C0EA18A1EECCA7F00B78B2F /* Jacqueline.framework */,
+				0C0EA1971EECCA8F00B78B2F /* Jacqueline.framework */,
 				0C0EA19F1EECCA8F00B78B2F /* Jacqueline-tvOSTests.xctest */,
-				0C0EA1B31EECCA9D00B78B2F /* Jacqueline-macOS.framework */,
+				0C0EA1B31EECCA9D00B78B2F /* Jacqueline.framework */,
 				0C0EA1BB1EECCA9D00B78B2F /* Jacqueline-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C0EA16F1EECCA6700B78B2F /* Jacqueline-iOS */ = {
+		0C0EA1CA1EECCCE300B78B2F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA1701EECCA6700B78B2F /* Jacqueline-iOS.h */,
-				0C0EA1711EECCA6700B78B2F /* Info.plist */,
+				0C0EA1CB1EECCCE300B78B2F /* Jacqueline-iOSTests */,
+				0C0EA1CE1EECCCE300B78B2F /* Jacqueline-macOSTests */,
+				0C0EA1D11EECCCE300B78B2F /* Jacqueline-tvOSTests */,
 			);
-			path = "Jacqueline-iOS";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		0C0EA17A1EECCA6700B78B2F /* Jacqueline-iOSTests */ = {
+		0C0EA1CB1EECCCE300B78B2F /* Jacqueline-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA17B1EECCA6700B78B2F /* Jacqueline_iOSTests.swift */,
-				0C0EA17D1EECCA6700B78B2F /* Info.plist */,
+				0C0EA1CC1EECCCE300B78B2F /* Info.plist */,
+				0C0EA1CD1EECCCE300B78B2F /* Jacqueline_iOSTests.swift */,
 			);
 			path = "Jacqueline-iOSTests";
 			sourceTree = "<group>";
 		};
-		0C0EA18B1EECCA7F00B78B2F /* Jacqueline-watchOS */ = {
+		0C0EA1CE1EECCCE300B78B2F /* Jacqueline-macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA18C1EECCA7F00B78B2F /* Jacqueline-watchOS.h */,
-				0C0EA18D1EECCA7F00B78B2F /* Info.plist */,
+				0C0EA1CF1EECCCE300B78B2F /* Info.plist */,
+				0C0EA1D01EECCCE300B78B2F /* Jacqueline_macOSTests.swift */,
 			);
-			path = "Jacqueline-watchOS";
+			path = "Jacqueline-macOSTests";
 			sourceTree = "<group>";
 		};
-		0C0EA1981EECCA8F00B78B2F /* Jacqueline-tvOS */ = {
+		0C0EA1D11EECCCE300B78B2F /* Jacqueline-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA1991EECCA8F00B78B2F /* Jacqueline-tvOS.h */,
-				0C0EA19A1EECCA8F00B78B2F /* Info.plist */,
-			);
-			path = "Jacqueline-tvOS";
-			sourceTree = "<group>";
-		};
-		0C0EA1A31EECCA8F00B78B2F /* Jacqueline-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C0EA1A41EECCA8F00B78B2F /* Jacqueline_tvOSTests.swift */,
-				0C0EA1A61EECCA8F00B78B2F /* Info.plist */,
+				0C0EA1D21EECCCE300B78B2F /* Info.plist */,
+				0C0EA1D31EECCCE300B78B2F /* Jacqueline_tvOSTests.swift */,
 			);
 			path = "Jacqueline-tvOSTests";
 			sourceTree = "<group>";
 		};
-		0C0EA1B41EECCA9D00B78B2F /* Jacqueline-macOS */ = {
+		0C0EA1D41EECCCE300B78B2F /* Meta */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA1B51EECCA9D00B78B2F /* Jacqueline-macOS.h */,
-				0C0EA1B61EECCA9D00B78B2F /* Info.plist */,
+				0C0EA1D51EECCCE300B78B2F /* Info-iOS.plist */,
+				0C0EA1D61EECCCE300B78B2F /* Info-macOS.plist */,
+				0C0EA1D71EECCCE300B78B2F /* Info-tvOS.plist */,
+				0C0EA1D81EECCCE300B78B2F /* Info-watchOS.plist */,
+				0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */,
 			);
-			path = "Jacqueline-macOS";
+			path = Meta;
 			sourceTree = "<group>";
 		};
-		0C0EA1BF1EECCA9D00B78B2F /* Jacqueline-macOSTests */ = {
+		0C0EA1DA1EECCCE300B78B2F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA1C01EECCA9D00B78B2F /* Jacqueline_macOSTests.swift */,
-				0C0EA1C21EECCA9D00B78B2F /* Info.plist */,
 			);
-			path = "Jacqueline-macOSTests";
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +207,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA17E1EECCA6700B78B2F /* Jacqueline-iOS.h in Headers */,
+				0C0EA1E51EECCCE300B78B2F /* Jacqueline.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA18E1EECCA7F00B78B2F /* Jacqueline-watchOS.h in Headers */,
+				0C0EA1E61EECCD0600B78B2F /* Jacqueline.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +223,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1A71EECCA8F00B78B2F /* Jacqueline-tvOS.h in Headers */,
+				0C0EA1E71EECCD0800B78B2F /* Jacqueline.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +231,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1C31EECCA9D00B78B2F /* Jacqueline-macOS.h in Headers */,
+				0C0EA1E81EECCD0900B78B2F /* Jacqueline.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +253,7 @@
 			);
 			name = "Jacqueline-iOS";
 			productName = "Jacqueline-iOS";
-			productReference = 0C0EA16D1EECCA6700B78B2F /* Jacqueline-iOS.framework */;
+			productReference = 0C0EA16D1EECCA6700B78B2F /* Jacqueline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C0EA1751EECCA6700B78B2F /* Jacqueline-iOSTests */ = {
@@ -303,7 +289,7 @@
 			);
 			name = "Jacqueline-watchOS";
 			productName = "Jacqueline-watchOS";
-			productReference = 0C0EA18A1EECCA7F00B78B2F /* Jacqueline-watchOS.framework */;
+			productReference = 0C0EA18A1EECCA7F00B78B2F /* Jacqueline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C0EA1961EECCA8F00B78B2F /* Jacqueline-tvOS */ = {
@@ -321,7 +307,7 @@
 			);
 			name = "Jacqueline-tvOS";
 			productName = "Jacqueline-tvOS";
-			productReference = 0C0EA1971EECCA8F00B78B2F /* Jacqueline-tvOS.framework */;
+			productReference = 0C0EA1971EECCA8F00B78B2F /* Jacqueline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C0EA19E1EECCA8F00B78B2F /* Jacqueline-tvOSTests */ = {
@@ -357,7 +343,7 @@
 			);
 			name = "Jacqueline-macOS";
 			productName = "Jacqueline-macOS";
-			productReference = 0C0EA1B31EECCA9D00B78B2F /* Jacqueline-macOS.framework */;
+			productReference = 0C0EA1B31EECCA9D00B78B2F /* Jacqueline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C0EA1BA1EECCA9D00B78B2F /* Jacqueline-macOSTests */ = {
@@ -386,6 +372,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Oscar Fuentes";
 				TargetAttributes = {
 					0C0EA16C1EECCA6700B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -511,7 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA17C1EECCA6700B78B2F /* Jacqueline_iOSTests.swift in Sources */,
+				0C0EA1E91EECCD1600B78B2F /* Jacqueline_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1A51EECCA8F00B78B2F /* Jacqueline_tvOSTests.swift in Sources */,
+				0C0EA1EB1EECCD2200B78B2F /* Jacqueline_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1C11EECCA9D00B78B2F /* Jacqueline_macOSTests.swift in Sources */,
+				0C0EA1EA1EECCD1D00B78B2F /* Jacqueline_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,14 +620,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -694,13 +681,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -865,13 +852,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-watchOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -926,12 +913,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-watchOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -991,13 +978,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1051,12 +1038,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1221,14 +1208,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1282,13 +1269,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Jacqueline-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Meta/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "oscarfuentes.Jacqueline-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jacqueline;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
