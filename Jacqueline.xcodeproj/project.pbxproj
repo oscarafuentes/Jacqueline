@@ -21,14 +21,6 @@
 		0C0EA1EE1EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
 		0C0EA1EF1EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
 		0C0EA1F01EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
-		0C0EA1FD1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
-		0C0EA1FE1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
-		0C0EA1FF1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
-		0C0EA2001EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
-		0C0EA2011EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
-		0C0EA2021EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
-		0C0EA2031EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
-		0C0EA2041EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,8 +67,6 @@
 		0C0EA1D81EECCCE300B78B2F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jacqueline.h; sourceTree = "<group>"; };
 		0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JObservable.swift; sourceTree = "<group>"; };
-		0C0EA1FB1EECD19200B78B2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0C0EA1FC1EECD19200B78B2F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,8 +189,6 @@
 		0C0EA1D41EECCCE300B78B2F /* Meta */ = {
 			isa = PBXGroup;
 			children = (
-				0C0EA1FB1EECD19200B78B2F /* README.md */,
-				0C0EA1FC1EECD19200B78B2F /* LICENSE.md */,
 				0C0EA1D51EECCCE300B78B2F /* Info-iOS.plist */,
 				0C0EA1D61EECCCE300B78B2F /* Info-macOS.plist */,
 				0C0EA1D71EECCCE300B78B2F /* Info-tvOS.plist */,
@@ -513,8 +501,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1FD1EECD19200B78B2F /* README.md in Sources */,
-				0C0EA2011EECD19200B78B2F /* LICENSE.md in Sources */,
 				0C0EA1ED1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,8 +517,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1FE1EECD19200B78B2F /* README.md in Sources */,
-				0C0EA2021EECD19200B78B2F /* LICENSE.md in Sources */,
 				0C0EA1EE1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,8 +525,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA1FF1EECD19200B78B2F /* README.md in Sources */,
-				0C0EA2031EECD19200B78B2F /* LICENSE.md in Sources */,
 				0C0EA1EF1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,8 +541,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0EA2001EECD19200B78B2F /* README.md in Sources */,
-				0C0EA2041EECD19200B78B2F /* LICENSE.md in Sources */,
 				0C0EA1F01EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
