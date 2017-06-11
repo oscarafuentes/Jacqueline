@@ -47,7 +47,7 @@ open class JObservable<T> {
      - Returns: An observable object which conforms to the designated generic type.
      */
     
-    public init(value: T) {
+    public init(_ value: T) {
         self.value = value
     }
     
