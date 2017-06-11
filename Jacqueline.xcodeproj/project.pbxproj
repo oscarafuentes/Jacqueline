@@ -17,6 +17,18 @@
 		0C0EA1E91EECCD1600B78B2F /* Jacqueline_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1CD1EECCCE300B78B2F /* Jacqueline_iOSTests.swift */; };
 		0C0EA1EA1EECCD1D00B78B2F /* Jacqueline_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1D01EECCCE300B78B2F /* Jacqueline_macOSTests.swift */; };
 		0C0EA1EB1EECCD2200B78B2F /* Jacqueline_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1D31EECCCE300B78B2F /* Jacqueline_tvOSTests.swift */; };
+		0C0EA1ED1EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
+		0C0EA1EE1EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
+		0C0EA1EF1EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
+		0C0EA1F01EECCFE300B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */; };
+		0C0EA1FD1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
+		0C0EA1FE1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
+		0C0EA1FF1EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
+		0C0EA2001EECD19200B78B2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FB1EECD19200B78B2F /* README.md */; };
+		0C0EA2011EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
+		0C0EA2021EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
+		0C0EA2031EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
+		0C0EA2041EECD19200B78B2F /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA1FC1EECD19200B78B2F /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +74,9 @@
 		0C0EA1D71EECCCE300B78B2F /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		0C0EA1D81EECCCE300B78B2F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		0C0EA1D91EECCCE300B78B2F /* Jacqueline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jacqueline.h; sourceTree = "<group>"; };
+		0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JObservable.swift; sourceTree = "<group>"; };
+		0C0EA1FB1EECD19200B78B2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C0EA1FC1EECD19200B78B2F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +199,8 @@
 		0C0EA1D41EECCCE300B78B2F /* Meta */ = {
 			isa = PBXGroup;
 			children = (
+				0C0EA1FB1EECD19200B78B2F /* README.md */,
+				0C0EA1FC1EECD19200B78B2F /* LICENSE.md */,
 				0C0EA1D51EECCCE300B78B2F /* Info-iOS.plist */,
 				0C0EA1D61EECCCE300B78B2F /* Info-macOS.plist */,
 				0C0EA1D71EECCCE300B78B2F /* Info-tvOS.plist */,
@@ -196,6 +213,7 @@
 		0C0EA1DA1EECCCE300B78B2F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0C0EA1EC1EECCFE300B78B2F /* JObservable.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -377,6 +395,7 @@
 					0C0EA16C1EECCA6700B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA1751EECCA6700B78B2F = {
@@ -387,11 +406,13 @@
 					0C0EA1891EECCA7F00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA1961EECCA8F00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA19E1EECCA8F00B78B2F = {
@@ -402,6 +423,7 @@
 					0C0EA1B21EECCA9D00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA1BA1EECCA9D00B78B2F = {
@@ -491,6 +513,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA1FD1EECD19200B78B2F /* README.md in Sources */,
+				0C0EA2011EECD19200B78B2F /* LICENSE.md in Sources */,
+				0C0EA1ED1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +531,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA1FE1EECD19200B78B2F /* README.md in Sources */,
+				0C0EA2021EECD19200B78B2F /* LICENSE.md in Sources */,
+				0C0EA1EE1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +541,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA1FF1EECD19200B78B2F /* README.md in Sources */,
+				0C0EA2031EECD19200B78B2F /* LICENSE.md in Sources */,
+				0C0EA1EF1EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +559,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA2001EECD19200B78B2F /* README.md in Sources */,
+				0C0EA2041EECD19200B78B2F /* LICENSE.md in Sources */,
+				0C0EA1F01EECCFE300B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +742,7 @@
 		0C0EA1831EECCA6700B78B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -764,6 +799,7 @@
 		0C0EA1841EECCA6700B78B2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1067,6 +1103,7 @@
 		0C0EA1AC1EECCA8F00B78B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1122,6 +1159,7 @@
 		0C0EA1AD1EECCA8F00B78B2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1298,6 +1336,7 @@
 		0C0EA1C81EECCA9D00B78B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1355,6 +1394,7 @@
 		0C0EA1C91EECCA9D00B78B2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
